@@ -1,0 +1,47 @@
+img{
+	width: 600px;
+}
+.first-heading{
+	color: purple;
+	font: sans-serif;
+	font-size: 80px;
+	margin-right: 300px;
+	margin-left: 300px;
+
+}
+.second-heading{
+	color: orange;
+	font: serif;
+	font-size: 40px;
+}
+.third-heading{
+	color: blue;
+	font: small-caps;
+	font-size: 40px;
+}
+.fourth-heading{
+	color: red;
+	font: verdana;
+	font-size: 40px;
+}
+.designer{
+	color: green;
+	font-size: 18px;
+
+}
+aside{
+	font-size: 24px;
+	background-color: yellow;
+	padding: 10px;
+}
+div{
+	width: 600px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 100px;
+}
+#blower{
+	width: 600px;
+
+
+}

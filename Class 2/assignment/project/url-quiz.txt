@@ -1,0 +1,8 @@
+1.  wolf.wilddog
+2.  mutt/poodle/schnoodle.dog
+3.  mutt/poodle/schnoodle.dog
+4.  ../../wolf.wilddog
+5.  schnauzer.dog
+6.  ../toy/poodle.dog
+7.  ../../terrier/wheaton.dog
+8.  ../dingo.wilddog

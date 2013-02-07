@@ -1,0 +1,54 @@
+input {
+  font-size: 32px;
+}
+
+input:focus {
+  background: red;
+}
+button {
+  background: yellow;
+  padding: 20px;
+  border: none;
+}
+button:active {
+  background: seagreen;
+}
+
+a.cool:link {
+  color: blue;
+}
+
+a.cool:visited {
+  color: purple;
+}
+
+a.cool:hover {
+  color: yellow;
+}
+/*
+.space-me-bro {
+  margin: 20px;
+}
+*/
+a#call-to-action {
+  text-decoration: none;
+  font-size: 32px;
+  background: seagreen;
+  color: white;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px 20px;
+  border: 2px solid green;
+  border-radius: 2px;
+  box-shadow: 0 0 20px green;
+}
+
+#cool {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+p:last-child {
+  clear: left;
+}

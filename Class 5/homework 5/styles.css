@@ -1,0 +1,123 @@
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+header {
+  position: relative;
+  padding-top: 22px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+header h2 {
+  font-size: 26px;
+  color: #777777;
+  font-weight: normal;
+}
+
+#logo {
+  height: 52px;
+  width: 146px;
+  margin-top: 30px;
+}
+
+header nav {
+  position: absolute;
+  top: 44px;
+  right: 10px;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+header nav li {
+  display: inline-block;
+  height: 10px;
+}
+
+header nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: #777777;
+
+}
+
+header nav .selected a {
+  color: black;
+}
+
+.project {
+  padding: 40px;
+  background-image: url('images/section-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project h1 {
+  font-size: 32px;
+  color: black;
+}
+
+.project h2 {
+  font-size: 20px;
+  color: #777777;
+}
+
+.project > div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.caption {
+  display: inline-block;
+}
+.project .info {
+  width: 260px;
+  float: left;
+}
+.project .project-pics {
+  width: 1000px;
+  float: right;
+}
+.project footer {
+  clear: both;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #b491c8;
+  font-family: "Helvetica";
+  padding: 20px;
+}
+footer  li {
+  display: inline-block;
+  float: right;
+}
+footer span {
+  color: #6e567a;
+}
+footer p {
+  color: #b491c8;
+  width: 400px;
+}
+footer {
+  background-color: #e4d7eb;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.slideshow {
+  width: 920px;
+  margin-top: 120px;
+}
