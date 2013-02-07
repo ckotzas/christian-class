@@ -24,7 +24,7 @@ header h2 {
 #logo {
   height: 52px;
   width: 146px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 header nav {
@@ -60,7 +60,7 @@ header nav .selected a {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
-  width: 1050px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,18 +77,33 @@ header nav .selected a {
 .project > div {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   width: 1000px;
 }
 .caption {
-  display: inline-block;
+  float; left;
 }
 .project .info {
   width: 260px;
   float: left;
 }
 .project .project-pics {
-  width: 1000px;
   float: right;
+}
+.caption{
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+  background-color: #232527;
+  width: 118px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 7px;
+  color: white;
+  border-radius: 4px;
+
+
 }
 .project footer {
   clear: both;
@@ -113,11 +128,24 @@ footer p {
 }
 footer {
   background-color: #e4d7eb;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-top: 60px;
   padding-left: 40px;
+  margin-top: 60px;
 }
 .slideshow {
-  width: 920px;
+  width: 1000px;
   margin-top: 120px;
+}
+div > ul {
+  margin-bottom: 20px;
+}
+header h2 {
+  width: 550px;
+}
+#footer-nav {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 57px;
 }
