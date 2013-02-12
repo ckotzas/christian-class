@@ -1,0 +1,41 @@
+.social div {
+position: relative;
+right: 30px;
+top: 10px;
+}
+
+.social ul {
+	float: right;
+	list-style: none;
+	padding-left: 0;
+}
+
+.social li {
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	width: 35px;
+	margin-left: 12px;
+}
+
+.social a {
+	display: block;
+  	text-decoration: none;
+  	background-color: #e1e1e1;
+  	margin-right: 5px;
+  	border-radius: 20px;
+  	padding-left: 18px;
+  	padding-right: 18px;
+  	padding-bottom: 12px;
+}
+
+.social a img {
+	position: relative;
+	right: 10px;
+	top: 8px;
+
+}
+
+.social a:hover {
+	background-color: blue;
+}

@@ -1,0 +1,22 @@
+
+#container {
+	padding:20px;
+	width:600px;
+	color:white;
+	position:relative;
+	float:left;
+	margin:50px 0 0 20px;
+	overflow:hidden;
+}
+
+#container .dimmed {
+	opacity:0.1;
+	background-color: red;
+	width:640px;
+	height:600px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-1;
+}
+
