@@ -1,0 +1,184 @@
+
+body {
+	background-image: url('images/background1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: Helvetica;
+	font-size: 14px;
+	line-height: 24px;
+	}
+	nav a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 12px
+}
+nav ul a:hover {
+	color: #ffe082;
+}
+
+nav li {
+	
+	text-decoration: none;
+	list-style-type: none;
+	letter-spacing: 5px;
+}
+nav ul {
+	margin-top: 40px;
+	margin-left: -15px;
+	float: left;
+}
+
+#social li {
+	float: right;
+	margin-right: 20px;
+	position: relative;
+	background-color: white;
+	border-style:solid;
+	border-width:10px;
+	border-radius: 40px;
+	border-color: white;
+
+}
+
+
+}
+
+#social ul {
+	margin-right: 60px;
+
+	position: relative;
+}
+
+	#container {
+		padding:20px;
+		width: 50%;
+		color: white;
+		position: absolute;
+		left: 50%;
+	
+		margin: 0 0 0 -30%;
+		}
+
+		.dimmed {
+			background-color: black;
+			opacity: 0.5;
+			height: 618px;
+			padding: 40px;
+			position: absolute;
+			top: 40px;
+			left: 0px;
+			right: -20px;
+			bottom: 0px;
+			z-index:-1;
+		}
+		.content {
+			position: absolute;
+			text-align: center;
+			margin-left: 50px;
+			margin-right: 50px;
+
+		}
+		.content p {
+			min-width: 0px
+		}
+
+		div h1 {
+		color: white;
+		font-family: 'Voltaire', Georgia, serif;
+		font-size: 80px;
+		padding-right: auto;
+		padding-left: auto;
+		text-align: center;
+		position: relative;
+		}	
+
+		div h2 {
+		color: #ffe082;
+		font-family: 'Georgia', serif;
+		font-size: 20px;
+		font-style: italic;
+		}
+
+		div p { 
+			color: white;
+		}
+		p a {
+			text-decoration: none;
+			color: white;
+		}
+		.contact {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		.contact p a {
+			color: #a3b0b3;
+			text-transform: uppercase;
+			font-size: 18px;
+			letter-spacing: 3px;
+		}
+		.contact p {
+			color: #a3b0b3;
+			text-transform: uppercase;
+			font-size: 18px;
+			letter-spacing: 3px;
+
+		}
+		#description {
+			border-top: solid 1px;
+			padding-top: 20px;
+			margin-top: 20px;
+		}
+
+		#description p {
+			font-size: 18px;
+			line-height: 28px;
+		}
+
+		p a:hover {
+			color: #ffe082;
+		}
+
+.social div {
+position: relative;
+right: 30px;
+top: 30px;
+}
+
+.social ul {
+	float: right;
+	list-style: none;
+	padding-left: 0;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.social li {
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	width: 35px;
+	margin-left: 12px;
+}
+
+.social a {
+	display: block;
+  	text-decoration: none;
+  	background-color: white;
+  	margin-right: 5px;
+  	border-radius: 20px;
+  	padding-left: 18px;
+  	padding-right: 18px;
+  	padding-bottom: 9px;
+}
+
+.social a img {
+	position: relative;
+	right: 10px;
+	top: 8px;
+
+}
+
+.social a:hover {
+	background-color: #ffe082;
+}
