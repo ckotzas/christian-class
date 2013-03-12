@@ -1,0 +1,16 @@
+Website I like: archdaily.com
+
+Here is a website I use every day and it serves me well. I like it because it is simple, it is constantly updated with new material as every good news website should be, it's relatively light on adds and the adds that it does have are relevant to the content. 
+
+In terms of layout, up at the very top and out of the way is a navigation panel for one type of user, perhaps a more specialized user with links to less frequently used features such as "submit" and "adds", this appears above the logo and is black in color so you read it as not belonging to the main body of the website which is white. Immediately below is the logo, centered, and given room to breathe. Immediately below that is the main navigation panel for the more common user with links such as "news" and "articles" as well as a drop down "more" tab so as not to clutter the navigation bar. Directly below that begins the main content of the website and is organized in a blog like fashion - to the left the largest column features articles and this takes up one half of the width of the page, to the right of that are other announcements such as "building of the year award", "selected buildings" curated by the website, a list of articles accessible by type, some adds and other less important content. The articles are organized by their post date/time and are clearly identified by a bold title, a large image, some project data and a "read more" tab as well as social networking links. 
+
+This seems to be a popular format and is successful because of it's adherence to convention therefore people find it familiar and easy to use. 
+
+So simplicity, adherence to convention, a clearly displayed and memorable logo, not much text and good organizational hierarchy are the reasons for the success of this site. 
+
+One more thing I like is that the main navigation panel sticks to the top of the browser window as you scroll down the page so you have constant access to it regardless of how far down you've scrolled. Scroll down to the footer look to the bottom left hand corner and you'll see an example of "closure" 
+
+
+Website that sucks: chalonersofthehamptons.com
+
+This sucks because everything is crammed into the egg shaped white object, the background serves no purpose except to allow the egg to exist. The title is barely visible, the font is unattractive, the navigation panel does not fit on one line so there is a line break in it! Clearly the egg shape is a big website faux pas, it feels restrictive to the content and in this case the text is spilling over it's edges (because as we all know you can't make text fit within a shape other than a rectangle). The choice of colors is unharmonious, the hierarchies are non-existent and you can never escape the restrictive shape of the egg as it exists as a background to all of the views of the site. Nuff said. 
