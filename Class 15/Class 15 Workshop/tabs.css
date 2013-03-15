@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+li.selected{
+    background: papayawhip;
+    border: 1px solid seagreen;
+    border-bottom: none;
+}
+
+#tab-contents {
+    border: 1px solid seagreen;
+    background: papayawhip;
+    margin-top: -18px;
+    padding-top: 10px;
+    height: 100px;
+}
