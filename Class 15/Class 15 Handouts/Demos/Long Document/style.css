@@ -1,0 +1,23 @@
+body {
+  background-color: #eee;
+  font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+  padding: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+h2 {
+  color: #a7a7a7;
+}
+h3 {
+  color: #ccc;
+  font-style: italic;
+}
+#page-wrapper {
+  background-color: white;
+  padding: 40px;
+  width: 900px;
+}
+#main-content {
+  width: 600px;
+}

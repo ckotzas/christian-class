@@ -1,0 +1,64 @@
+body {background-color: black;}
+
+#freedom-game {
+	width: 900px;
+	height: 600px;
+	margin:100px auto;
+	background: white;
+	background-size: cover;
+	position: relative;
+}
+
+#believer {
+
+	width: 300px;
+	height: 250px;
+	background: url('flyer1.png') ;
+	position: absolute;
+	bottom: 100px;
+	left: 200px;
+}
+
+#you {
+
+	width: 200px;
+	height: 285px;
+	background: url('kicker.png');
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	
+}
+
+#tree {
+
+	width: 204px;
+	height: 247px;
+	position: absolute;
+	bottom: 350px;
+	right: 0px;
+	background: url('money.jpeg') ;;
+
+}
+
+#hand {
+
+	width: 220px;
+	height: 374px;
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+	background: url('finger.jpg');
+
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+body {
+  padding: 40px;
+  background-color: #eee;
+}
+#page-wrapper {
+  margin: auto;
+  width: 760px;
+  background: white;
+  padding: 40px;
+}
+#page-wrapper:after {
+  content: '.';
+  font-size: 0;
+  height: 0px;
+  width: 0px;
+  clear: both;
+  display: block;
+}
+.movie {
+  position: relative;
+  float: left;
+  margin-right: 22px;
+  margin-bottom: 30px;
+  background: seagreen;
+}
+.number {
+  position: absolute;
+  left: 10px;
+  right: auto;
+  top: 0;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Helvetica', Arial, sans-serif;
+  opacity: 0.7;
+  text-align: center;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+}

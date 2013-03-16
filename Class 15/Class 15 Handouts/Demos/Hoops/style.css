@@ -1,0 +1,53 @@
+body {
+  background: black;
+}
+#basketball-game {
+  width: 800px;
+  height: 600px;
+  margin: 100px auto;
+  background: white;
+  position: relative;
+  background: white url(bg.gif) no-repeat;
+  background-size: cover;
+}
+#basketball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url('url.jpeg') -26px -49px;
+  position: absolute;
+  bottom: 20px;
+  box-shadow: 20px 29px 25px -27px rgba(0, 0, 0, 0.5);
+}
+#base {
+  width: 250px;
+  height: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  background-color: black;
+}
+#pole {
+  width: 20px;
+  height: 310px;
+  position: absolute;
+  bottom: 40px;
+  right: 125px;
+  background-color: black;
+}
+#back-board {
+  width: 32px;
+  height: 200px;
+  position: absolute;
+  bottom: 350px;
+  right: 120px;
+  background-color: grey;
+}
+#rim {
+  width: 165px;
+  height: 10px;
+  position: absolute;
+  bottom: 350px;
+  right: 151px;
+  background-color: red;
+}
