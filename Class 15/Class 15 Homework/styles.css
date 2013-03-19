@@ -1,0 +1,108 @@
+.slideshow { 
+	height: 232px; 
+	width: 232px; 
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 51px;
+	
+}
+
+.slideshow img { 
+	padding: 15px; 
+	border: 1px solid grey; 
+	background-color: #eee; 
+	border-radius: 5px;
+	
+}
+  
+#background { 
+    background-color: #e4e4e2;
+    height: 375px; 
+    width: 660px;
+    position: absolute;
+    z-index: -1;
+    margin-right: 10px; 
+    border: solid 1px grey;
+    padding: 5px;
+    border-radius: 5px;
+  
+}
+
+#button {
+	display: inline-block;
+	position: absolute;
+	height: 375px;
+	width: 40px;
+	background-color: #cfd8a6;
+	border: solid 1px grey;
+	border-radius: 5px;
+}
+
+
+/*slider*/
+
+.ui-slider{
+position: relative; 
+text-align: left;
+}
+
+.ui-slider-horizontal{
+height: .8em;
+z-index: 0;
+position: absolute;
+margin-left: 50px;
+width: 600px;
+margin-top: 5px;
+color: #cfd8a6;
+
+
+}
+
+.ui-widget{
+font-family: Verdana,Arial,sans-serif; 
+font-size: 0.6em;
+
+}
+
+.ui-widget-content{
+border: 1px solid grey; 
+background: #cfd8a6; 
+color: #222222;
+
+}
+
+.ui-corner-all{
+border-radius: 8px; 
+}
+
+/* anchor selectors */
+
+.ui-slider-handle{
+position: absolute; 
+z-index: 0; 
+width: 1.2em; 
+height: 1.2em; 
+cursor: default;
+top: -.3em; 
+margin-left: -.6em;
+
+}
+
+.ui-state-default{
+border: 1px solid grey; 
+background: #e6e6e6; 
+font-weight: normal; color: #555555;
+}
+
+
+#s2 {
+	width: 600px;
+	position: absolute;
+	background: none;
+	z-index: 1;
+	margin-left: 50px;
+	font-family: 'helvetica';
+	font-size: 1px;
+	color: none;
+	
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js">
+  </script>
+  <!-- Slider Plugin -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js">
+  </script>
+
+  <!-- Background Color Script -->
+  <script>
+  $(document).ready(function() {
+
+  $("#button").toggle(
+      function () {
+        $(".slideshow img").css('background-color', 'yellow');
+      },
+      function () {
+        $(".slideshow img").css('background-color', 'red');
+      },
+      function () {
+        $(".slideshow img").css('background-color', 'papayawhip');
+      });
+});
+  </script>
+
+ <script>
+  $(document).ready(function() {
+
+  $("#button").toggle(
+      function () {
+        $("#background").css('background-color', 'blue');
+      },
+      function () {
+        $("#background").css('background-color', 'brown');
+      },
+      function () {
+        $("#background").css('background-color', '#e4e4e2');
+      });
+});
+  </script>
+
+  <script>
+    $(document).ready(function() {
+    $('.slideshow').cycle({
+    fx: 'fade',
+  });
+});
+  </script>
+
+  <!-- Slider Script -->
+  <script>
+    $(document).ready(function() {
+    $("#slider").slider({
+      max: 328,
+      min: 50,
+      change: function(event, ui){
+      $("img").html(ui.value);
+      $("img").css("height", ui.value)
+      $("img").css("width", ui.value)
+      }
+    });
+  });
+  </script>
+
+</head>
+<body>
+  
+    <div id="background">
+      <button id="button">BOO!</button>
+    </div>
+    
+    <div class="slideshow">
+    <img src="http://cloud.github.com/downloads/malsup/cycle/beach1.jpg" width="200" height="200" />
+    <img src="http://cloud.github.com/downloads/malsup/cycle/beach2.jpg" width="200" height="200" />
+    <img src="http://cloud.github.com/downloads/malsup/cycle/beach3.jpg" width="200" height="200" />
+    <img src="http://cloud.github.com/downloads/malsup/cycle/beach4.jpg" width="200" height="200" />
+    <img src="http://cloud.github.com/downloads/malsup/cycle/beach5.jpg" width="200" height="200" />
+    </div>
+
+    <div id="slider"></div>
+    <div id="s2">0</div>
+  
+</body>
+</html>
+
+

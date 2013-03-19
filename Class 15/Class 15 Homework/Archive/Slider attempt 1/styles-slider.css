@@ -1,0 +1,79 @@
+/* structure from inspect element
+<div 
+	id="slider" 
+	class=
+		"ui-slider 
+		ui-slider-horizontal 
+		ui-widget 
+		ui-widget-content 
+		ui-corner-all">
+
+	<a 
+	class="ui-slider-handle 
+	ui-state-default 
+	ui-corner-all" 
+	href="#" style="left: 0%;"></a>
+</div>
+*/
+
+
+/* div selectors */
+
+#slider{
+	
+	top: 40px;
+
+
+
+}
+
+.ui-slider{
+position: relative; 
+text-align: left;
+}
+
+.ui-slider-horizontal{
+height: .8em;
+
+}
+
+.ui-widget{
+font-family: Verdana,Arial,sans-serif; 
+font-size: 0.6em;
+
+}
+
+.ui-widget-content{
+border: 1px solid red; 
+background: grey; 
+color: #222222;
+
+}
+
+.ui-corner-all{
+border-radius: 8px; 
+}
+
+/* anchor selectors */
+
+.ui-slider-handle{
+position: absolute; 
+z-index: 0; 
+width: 1.2em; 
+height: 1.2em; 
+cursor: default;
+top: -.3em; 
+margin-left: -.6em;
+
+}
+
+.ui-state-default{
+border: 1px solid black; 
+background: #e6e6e6; 
+font-weight: normal; color: #555555;
+}
+
+
+#s2 {
+	background: silver;
+}
